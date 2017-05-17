@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
     
     func RetrievePicoYPlacaInfo(){
-        Alamofire.request("https://httpbin.org/get").responseJSON { response in
+        Alamofire.request("https://raw.githubusercontent.com/lopezjosed89/picoYplacaPractice/master/test.json").responseJSON { response in
             print(">>>>>>request ",response.request)  // original URL request
             print(">>>>response ",response.response) // HTTP URL response
             print(">>>>Data ",response.data)     // server data
