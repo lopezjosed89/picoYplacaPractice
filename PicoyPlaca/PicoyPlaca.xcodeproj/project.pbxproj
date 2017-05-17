@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0377886A076CDA9E2ABCEF /* Pods_PicoyPlaca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B382C0F8D565A5F7DFF1CF67 /* Pods_PicoyPlaca.framework */; };
+		41574F651EC76CE200FB8129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41574F641EC76CE200FB8129 /* AppDelegate.swift */; };
+		41574F671EC76CE200FB8129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41574F661EC76CE200FB8129 /* ViewController.swift */; };
+		41574F6A1EC76CE200FB8129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41574F681EC76CE200FB8129 /* Main.storyboard */; };
+		41574F6C1EC76CE200FB8129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41574F6B1EC76CE200FB8129 /* Assets.xcassets */; };
+		41574F6F1EC76CE200FB8129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41574F6D1EC76CE200FB8129 /* LaunchScreen.storyboard */; };
+		417A2BBA1ECA9D1F00AC8F65 /* PicoYPlacaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A2BB91ECA9D1F00AC8F65 /* PicoYPlacaService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41574F611EC76CE100FB8129 /* PicoyPlaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicoyPlaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41574F641EC76CE200FB8129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41574F661EC76CE200FB8129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41574F691EC76CE200FB8129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41574F6B1EC76CE200FB8129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41574F6E1EC76CE200FB8129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41574F701EC76CE400FB8129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A2BB91ECA9D1F00AC8F65 /* PicoYPlacaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicoYPlacaService.swift; sourceTree = "<group>"; };
+		7CB612B5FF8904AC8BD4C219 /* Pods-PicoyPlaca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoyPlaca.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicoyPlaca/Pods-PicoyPlaca.release.xcconfig"; sourceTree = "<group>"; };
+		B382C0F8D565A5F7DFF1CF67 /* Pods_PicoyPlaca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicoyPlaca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C9FD64A1F3C4F291B5D47A /* Pods-PicoyPlaca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoyPlaca.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicoyPlaca/Pods-PicoyPlaca.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41574F5E1EC76CE100FB8129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0377886A076CDA9E2ABCEF /* Pods_PicoyPlaca.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00377A4A69DA0F2B37B01D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B382C0F8D565A5F7DFF1CF67 /* Pods_PicoyPlaca.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3061B5CEE5589A116DEFCECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9FD64A1F3C4F291B5D47A /* Pods-PicoyPlaca.debug.xcconfig */,
+				7CB612B5FF8904AC8BD4C219 /* Pods-PicoyPlaca.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41574F581EC76CE100FB8129 = {
+			isa = PBXGroup;
+			children = (
+				41574F631EC76CE100FB8129 /* PicoyPlaca */,
+				41574F621EC76CE100FB8129 /* Products */,
+				3061B5CEE5589A116DEFCECE /* Pods */,
+				00377A4A69DA0F2B37B01D36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41574F621EC76CE100FB8129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41574F611EC76CE100FB8129 /* PicoyPlaca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41574F631EC76CE100FB8129 /* PicoyPlaca */ = {
+			isa = PBXGroup;
+			children = (
+				41574F641EC76CE200FB8129 /* AppDelegate.swift */,
+				41574F661EC76CE200FB8129 /* ViewController.swift */,
+				41574F681EC76CE200FB8129 /* Main.storyboard */,
+				417A2BB81ECA9BE400AC8F65 /* Services */,
+				41574F6B1EC76CE200FB8129 /* Assets.xcassets */,
+				41574F6D1EC76CE200FB8129 /* LaunchScreen.storyboard */,
+				41574F701EC76CE400FB8129 /* Info.plist */,
+			);
+			path = PicoyPlaca;
+			sourceTree = "<group>";
+		};
+		417A2BB81ECA9BE400AC8F65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				417A2BB91ECA9D1F00AC8F65 /* PicoYPlacaService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41574F601EC76CE100FB8129 /* PicoyPlaca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41574F731EC76CE400FB8129 /* Build configuration list for PBXNativeTarget "PicoyPlaca" */;
+			buildPhases = (
+				D2C26467A893DBDCECEE7AAC /* [CP] Check Pods Manifest.lock */,
+				41574F5D1EC76CE100FB8129 /* Sources */,
+				41574F5E1EC76CE100FB8129 /* Frameworks */,
+				41574F5F1EC76CE100FB8129 /* Resources */,
+				5BA623E3D46B985E483B0261 /* [CP] Embed Pods Frameworks */,
+				9FC24812D5638248A2C40195 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicoyPlaca;
+			productName = PicoyPlaca;
+			productReference = 41574F611EC76CE100FB8129 /* PicoyPlaca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41574F591EC76CE100FB8129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jose Daniel Lopez";
+				TargetAttributes = {
+					41574F601EC76CE100FB8129 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 41574F5C1EC76CE100FB8129 /* Build configuration list for PBXProject "PicoyPlaca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41574F581EC76CE100FB8129;
+			productRefGroup = 41574F621EC76CE100FB8129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41574F601EC76CE100FB8129 /* PicoyPlaca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41574F5F1EC76CE100FB8129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41574F6F1EC76CE200FB8129 /* LaunchScreen.storyboard in Resources */,
+				41574F6C1EC76CE200FB8129 /* Assets.xcassets in Resources */,
+				41574F6A1EC76CE200FB8129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BA623E3D46B985E483B0261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicoyPlaca/Pods-PicoyPlaca-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC24812D5638248A2C40195 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicoyPlaca/Pods-PicoyPlaca-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C26467A893DBDCECEE7AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41574F5D1EC76CE100FB8129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A2BBA1ECA9D1F00AC8F65 /* PicoYPlacaService.swift in Sources */,
+				41574F671EC76CE200FB8129 /* ViewController.swift in Sources */,
+				41574F651EC76CE200FB8129 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41574F681EC76CE200FB8129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41574F691EC76CE200FB8129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41574F6D1EC76CE200FB8129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41574F6E1EC76CE200FB8129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41574F711EC76CE400FB8129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41574F721EC76CE400FB8129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41574F741EC76CE400FB8129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C9FD64A1F3C4F291B5D47A /* Pods-PicoyPlaca.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicoyPlaca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseD.PicoyPlaca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		41574F751EC76CE400FB8129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB612B5FF8904AC8BD4C219 /* Pods-PicoyPlaca.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicoyPlaca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JoseD.PicoyPlaca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41574F5C1EC76CE100FB8129 /* Build configuration list for PBXProject "PicoyPlaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41574F711EC76CE400FB8129 /* Debug */,
+				41574F721EC76CE400FB8129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41574F731EC76CE400FB8129 /* Build configuration list for PBXNativeTarget "PicoyPlaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41574F741EC76CE400FB8129 /* Debug */,
+				41574F751EC76CE400FB8129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41574F591EC76CE100FB8129 /* Project object */;
+}
