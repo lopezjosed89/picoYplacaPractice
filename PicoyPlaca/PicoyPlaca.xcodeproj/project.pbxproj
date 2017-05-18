@@ -13,6 +13,7 @@
 		41574F6A1EC76CE200FB8129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41574F681EC76CE200FB8129 /* Main.storyboard */; };
 		41574F6C1EC76CE200FB8129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41574F6B1EC76CE200FB8129 /* Assets.xcassets */; };
 		41574F6F1EC76CE200FB8129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41574F6D1EC76CE200FB8129 /* LaunchScreen.storyboard */; };
+		48903CB81ECE36AF00E400DF /* PlatesDayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48903CB71ECE36AF00E400DF /* PlatesDayService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		41574F6B1EC76CE200FB8129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41574F6E1EC76CE200FB8129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41574F701EC76CE400FB8129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48903CB71ECE36AF00E400DF /* PlatesDayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatesDayService.swift; sourceTree = "<group>"; };
 		7CB612B5FF8904AC8BD4C219 /* Pods-PicoyPlaca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoyPlaca.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicoyPlaca/Pods-PicoyPlaca.release.xcconfig"; sourceTree = "<group>"; };
 		B382C0F8D565A5F7DFF1CF67 /* Pods_PicoyPlaca.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicoyPlaca.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C9FD64A1F3C4F291B5D47A /* Pods-PicoyPlaca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicoyPlaca.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicoyPlaca/Pods-PicoyPlaca.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				41574F6B1EC76CE200FB8129 /* Assets.xcassets */,
 				41574F6D1EC76CE200FB8129 /* LaunchScreen.storyboard */,
 				41574F701EC76CE400FB8129 /* Info.plist */,
+				48903CB71ECE36AF00E400DF /* PlatesDayService.swift */,
 			);
 			path = PicoyPlaca;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				41574F671EC76CE200FB8129 /* ViewController.swift in Sources */,
 				41574F651EC76CE200FB8129 /* AppDelegate.swift in Sources */,
+				48903CB81ECE36AF00E400DF /* PlatesDayService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
