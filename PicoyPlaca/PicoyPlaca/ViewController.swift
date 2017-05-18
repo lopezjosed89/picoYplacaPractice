@@ -12,8 +12,7 @@ import Alamofire
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        RetrievePicoYPlacaInfo()
-        
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,22 +20,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    func RetrievePicoYPlacaInfo(){
-        Alamofire.request("https://raw.githubusercontent.com/lopezjosed89/picoYplacaPractice/master/test.json").responseJSON { response in
-            print(">>>>>>request ",response.request)  // original URL request
-            print(">>>>response ",response.response) // HTTP URL response
-            print(">>>>Data ",response.data)     // server data
-            print("result ",response.result)   // result of response serialization
-            
-            if let JSON = response.result.value {
-                print("JSON: \(JSON)")
-            }
-        }
-        
-        
-    }
-
-
 }
 

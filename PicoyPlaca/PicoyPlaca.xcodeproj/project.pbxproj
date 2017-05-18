@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D0377886A076CDA9E2ABCEF /* Pods_PicoyPlaca.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B382C0F8D565A5F7DFF1CF67 /* Pods_PicoyPlaca.framework */; };
+		411B88AA1ECD3E5700E96CA6 /* PicoYPlacaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411B88A91ECD3E5700E96CA6 /* PicoYPlacaResponse.swift */; };
+		411B88AC1ECD40EA00E96CA6 /* ErrorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411B88AB1ECD40EA00E96CA6 /* ErrorData.swift */; };
 		41574F651EC76CE200FB8129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41574F641EC76CE200FB8129 /* AppDelegate.swift */; };
 		41574F671EC76CE200FB8129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41574F661EC76CE200FB8129 /* ViewController.swift */; };
 		41574F6A1EC76CE200FB8129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41574F681EC76CE200FB8129 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		411B88A91ECD3E5700E96CA6 /* PicoYPlacaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicoYPlacaResponse.swift; sourceTree = "<group>"; };
+		411B88AB1ECD40EA00E96CA6 /* ErrorData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorData.swift; sourceTree = "<group>"; };
 		41574F611EC76CE100FB8129 /* PicoyPlaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicoyPlaca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41574F641EC76CE200FB8129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41574F661EC76CE200FB8129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				417A2BB91ECA9D1F00AC8F65 /* PicoYPlacaService.swift */,
+				411B88A91ECD3E5700E96CA6 /* PicoYPlacaResponse.swift */,
+				411B88AB1ECD40EA00E96CA6 /* ErrorData.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -225,6 +231,8 @@
 				417A2BBA1ECA9D1F00AC8F65 /* PicoYPlacaService.swift in Sources */,
 				41574F671EC76CE200FB8129 /* ViewController.swift in Sources */,
 				41574F651EC76CE200FB8129 /* AppDelegate.swift in Sources */,
+				411B88AC1ECD40EA00E96CA6 /* ErrorData.swift in Sources */,
+				411B88AA1ECD3E5700E96CA6 /* PicoYPlacaResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
