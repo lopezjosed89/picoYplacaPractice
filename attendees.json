@@ -1,0 +1,32 @@
+[{
+  "id": "1",
+  "name": "Patti",
+  "lastname": "Smith",
+  "email": "patti.smith@gmail.com",
+  "eventDate": "2017-11-08",
+  "diningTime": "7.30 pm"
+},
+{
+  "id": "2",
+  "name": "John",
+  "lastname": "Andrews",
+  "email": "johna@gmail.com",
+  "eventDate": "2017-11-08",
+  "diningTime": "8.30 pm"
+},
+{
+  "id": "3",
+  "name": "Marcus",
+  "lastname": "Road",
+  "email": "rmarcus@gmail.com",
+  "eventDate": "2017-11-09",
+  "diningTime": "6.30 pm"
+},
+{
+  "id": "4",
+  "name": "Susan",
+  "lastname": "Jacobson",
+  "email": "susa.jacobson@gmail.com",
+  "eventDate": "2017-11-09",
+  "diningTime": "7.30 pm"
+}]
